@@ -1,0 +1,29 @@
+Region,Monet_Segment,kwh_veh
+Europe,S1,42
+Europe,S2,63
+Europe,S3,75
+Europe,S4,91
+Greater China,S1,24
+Greater China,S2,58
+Greater China,S3,67
+Greater China,S4,76
+Japan/Korea,S1,48
+Japan/Korea,S2,57
+Japan/Korea,S3,75
+Japan/Korea,S4,90
+Middle East/Africa,S1,53
+Middle East/Africa,S2,50
+Middle East/Africa,S3,77
+Middle East/Africa,S4,87
+North America,S1,61
+North America,S2,66
+North America,S3,77
+North America,S4,91
+South America,S1,45
+South America,S2,50
+South America,S3,78
+South America,S4,88
+South Asia,S1,34
+South Asia,S2,49
+South Asia,S3,64
+South Asia,S4,90

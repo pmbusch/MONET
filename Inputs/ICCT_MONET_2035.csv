@@ -1,0 +1,196 @@
+MONET_Region,c,Year,Powertrain,Scenario,sales
+Europe,Austria,2035,BEV,Baseline,323062
+Europe,Austria,2035,BEV,Momentum,323095
+Europe,Austria,2035,BEV,Ambitious,329734
+Europe,Belgium,2035,BEV,Baseline,404909
+Europe,Belgium,2035,BEV,Momentum,404909
+Europe,Belgium,2035,BEV,Ambitious,404909
+Europe,Czechia,2035,BEV,Baseline,382748
+Europe,Czechia,2035,BEV,Momentum,383049
+Europe,Czechia,2035,BEV,Ambitious,402227
+Europe,Denmark,2035,BEV,Baseline,195271
+Europe,Denmark,2035,BEV,Momentum,195271
+Europe,Denmark,2035,BEV,Ambitious,195271
+Europe,Finland,2035,BEV,Baseline,138401
+Europe,Finland,2035,BEV,Momentum,139041
+Europe,Finland,2035,BEV,Ambitious,145143
+Europe,France,2035,BEV,Baseline,2501057
+Europe,France,2035,BEV,Momentum,2502104
+Europe,France,2035,BEV,Ambitious,2537776
+Europe,Germany,2035,BEV,Baseline,2881163
+Europe,Germany,2035,BEV,Momentum,2881163
+Europe,Germany,2035,BEV,Ambitious,2881163
+Europe,Greece,2035,BEV,Baseline,251626
+Europe,Greece,2035,BEV,Momentum,254158
+Europe,Greece,2035,BEV,Ambitious,295207
+Europe,Hungary,2035,BEV,Baseline,258104
+Europe,Hungary,2035,BEV,Momentum,258389
+Europe,Hungary,2035,BEV,Ambitious,295734
+Europe,Ireland,2035,BEV,Baseline,150635
+Europe,Ireland,2035,BEV,Momentum,162077
+Europe,Ireland,2035,BEV,Ambitious,164435
+Europe,Italy,2035,BEV,Baseline,2226931
+Europe,Italy,2035,BEV,Momentum,2227147
+Europe,Italy,2035,BEV,Ambitious,2245834
+Europe,Netherlands,2035,BEV,Baseline,488575
+Europe,Netherlands,2035,BEV,Momentum,492371
+Europe,Netherlands,2035,BEV,Ambitious,509674
+Europe,Norway,2035,BEV,Baseline,188128
+Europe,Norway,2035,BEV,Momentum,188406
+Europe,Norway,2035,BEV,Ambitious,188619
+Europe,Poland,2035,BEV,Baseline,1372517
+Europe,Poland,2035,BEV,Momentum,1390531
+Europe,Poland,2035,BEV,Ambitious,1527341
+Europe,Portugal,2035,BEV,Baseline,264910
+Europe,Portugal,2035,BEV,Momentum,264962
+Europe,Portugal,2035,BEV,Ambitious,274960
+Europe,Rest of EU,2035,BEV,Baseline,643676
+Europe,Rest of EU,2035,BEV,Momentum,986531
+Europe,Rest of EU,2035,BEV,Ambitious,1291513
+Europe,Romania,2035,BEV,Baseline,421460
+Europe,Romania,2035,BEV,Momentum,423059
+Europe,Romania,2035,BEV,Ambitious,483437
+Europe,Russia,2035,BEV,Baseline,126949
+Europe,Russia,2035,BEV,Momentum,164176
+Europe,Russia,2035,BEV,Ambitious,1271003
+Europe,Slovakia,2035,BEV,Baseline,151899
+Europe,Slovakia,2035,BEV,Momentum,151916
+Europe,Slovakia,2035,BEV,Ambitious,161064
+Europe,Spain,2035,BEV,Baseline,1542803
+Europe,Spain,2035,BEV,Momentum,1544254
+Europe,Spain,2035,BEV,Ambitious,1552621
+Europe,Sweden,2035,BEV,Baseline,345183
+Europe,Sweden,2035,BEV,Momentum,346432
+Europe,Sweden,2035,BEV,Ambitious,347577
+Europe,Switzerland,2035,BEV,Baseline,197390
+Europe,Switzerland,2035,BEV,Momentum,233502
+Europe,Switzerland,2035,BEV,Ambitious,391404
+Europe,United Kingdom,2035,BEV,Baseline,453403
+Europe,United Kingdom,2035,BEV,Momentum,2355806
+Europe,United Kingdom,2035,BEV,Ambitious,2361823
+Greater China,China,2035,BEV,Baseline,10601377
+Greater China,China,2035,BEV,Momentum,14654844
+Greater China,China,2035,BEV,Ambitious,29621494
+Japan/Korea,Japan,2035,BEV,Baseline,514176
+Japan/Korea,Japan,2035,BEV,Momentum,1947637
+Japan/Korea,Japan,2035,BEV,Ambitious,3330459
+Japan/Korea,South Korea,2035,BEV,Baseline,169492
+Japan/Korea,South Korea,2035,BEV,Momentum,476696
+Japan/Korea,South Korea,2035,BEV,Ambitious,1293890
+Middle East/Africa,Algeria,2035,BEV,Baseline,251495
+Middle East/Africa,Algeria,2035,BEV,Momentum,252114
+Middle East/Africa,Algeria,2035,BEV,Ambitious,450460
+Middle East/Africa,Egypt,2035,BEV,Baseline,46421
+Middle East/Africa,Egypt,2035,BEV,Momentum,46421
+Middle East/Africa,Egypt,2035,BEV,Ambitious,557051
+Middle East/Africa,Ethiopia,2035,BEV,Baseline,16011
+Middle East/Africa,Ethiopia,2035,BEV,Momentum,16980
+Middle East/Africa,Ethiopia,2035,BEV,Ambitious,22073
+Middle East/Africa,Iran,2035,BEV,Baseline,88018
+Middle East/Africa,Iran,2035,BEV,Momentum,127782
+Middle East/Africa,Iran,2035,BEV,Ambitious,743672
+Middle East/Africa,Israel,2035,BEV,Baseline,64244
+Middle East/Africa,Israel,2035,BEV,Momentum,455464
+Middle East/Africa,Israel,2035,BEV,Ambitious,455464
+Middle East/Africa,Kenya,2035,BEV,Baseline,16332
+Middle East/Africa,Kenya,2035,BEV,Momentum,45048
+Middle East/Africa,Kenya,2035,BEV,Ambitious,63226
+Middle East/Africa,Morocco,2035,BEV,Baseline,61510
+Middle East/Africa,Morocco,2035,BEV,Momentum,91743
+Middle East/Africa,Morocco,2035,BEV,Ambitious,128229
+Middle East/Africa,Nigeria,2035,BEV,Baseline,347563
+Middle East/Africa,Nigeria,2035,BEV,Momentum,484878
+Middle East/Africa,Nigeria,2035,BEV,Ambitious,584267
+Middle East/Africa,Rest of Middle East/Africa,2035,BEV,Baseline,472951
+Middle East/Africa,Rest of Middle East/Africa,2035,BEV,Momentum,667639
+Middle East/Africa,Rest of Middle East/Africa,2035,BEV,Ambitious,1594803
+Middle East/Africa,Saudi Arabia,2035,BEV,Baseline,108810
+Middle East/Africa,Saudi Arabia,2035,BEV,Momentum,157995
+Middle East/Africa,Saudi Arabia,2035,BEV,Ambitious,708484
+Middle East/Africa,South Africa,2035,BEV,Baseline,28476
+Middle East/Africa,South Africa,2035,BEV,Momentum,28476
+Middle East/Africa,South Africa,2035,BEV,Ambitious,341707
+Europe,Turkey,2035,BEV,Baseline,35370
+Europe,Turkey,2035,BEV,Momentum,521247
+Europe,Turkey,2035,BEV,Ambitious,521247
+Middle East/Africa,United Arab Emirates,2035,BEV,Baseline,26331
+Middle East/Africa,United Arab Emirates,2035,BEV,Momentum,41831
+Middle East/Africa,United Arab Emirates,2035,BEV,Ambitious,205318
+North America,Canada,2035,BEV,Baseline,343846
+North America,Canada,2035,BEV,Momentum,1826299
+North America,Canada,2035,BEV,Ambitious,1826299
+North America,Mexico,2035,BEV,Baseline,172286
+North America,Mexico,2035,BEV,Momentum,1172235
+North America,Mexico,2035,BEV,Ambitious,1173771
+North America,United States,2035,BEV,Baseline,6579357
+North America,United States,2035,BEV,Momentum,10018567
+North America,United States,2035,BEV,Ambitious,14205431
+South America,Argentina,2035,BEV,Baseline,23424
+South America,Argentina,2035,BEV,Momentum,23424
+South America,Argentina,2035,BEV,Ambitious,281093
+South America,Bolivia,2035,BEV,Baseline,57107
+South America,Bolivia,2035,BEV,Momentum,102253
+South America,Bolivia,2035,BEV,Ambitious,174787
+South America,Brazil,2035,BEV,Baseline,156773
+South America,Brazil,2035,BEV,Momentum,156773
+South America,Brazil,2035,BEV,Ambitious,1881274
+South America,Chile,2035,BEV,Baseline,16485
+South America,Chile,2035,BEV,Momentum,329696
+South America,Chile,2035,BEV,Ambitious,329696
+South America,Colombia,2035,BEV,Baseline,19108
+South America,Colombia,2035,BEV,Momentum,114648
+South America,Colombia,2035,BEV,Ambitious,229296
+South America,Peru,2035,BEV,Baseline,58896
+South America,Peru,2035,BEV,Momentum,136396
+South America,Peru,2035,BEV,Ambitious,289741
+South America,Rest of South America,2035,BEV,Baseline,402993
+South America,Rest of South America,2035,BEV,Momentum,727950
+South America,Rest of South America,2035,BEV,Ambitious,1255322
+South America,Uruguay,2035,BEV,Baseline,2750
+South America,Uruguay,2035,BEV,Momentum,125000
+South America,Uruguay,2035,BEV,Ambitious,125000
+South America,Venezuela,2035,BEV,Baseline,91863
+South America,Venezuela,2035,BEV,Momentum,91863
+South America,Venezuela,2035,BEV,Ambitious,1102351
+South Asia,Australia,2035,BEV,Baseline,90432
+South Asia,Australia,2035,BEV,Momentum,722677
+South Asia,Australia,2035,BEV,Ambitious,722677
+South Asia,India,2035,BEV,Baseline,485182
+South Asia,India,2035,BEV,Momentum,2785736
+South Asia,India,2035,BEV,Ambitious,3969673
+South Asia,Indonesia,2035,BEV,Baseline,97621
+South Asia,Indonesia,2035,BEV,Momentum,1130347
+South Asia,Indonesia,2035,BEV,Ambitious,1233105
+South Asia,Malaysia,2035,BEV,Baseline,59853
+South Asia,Malaysia,2035,BEV,Momentum,630034
+South Asia,Malaysia,2035,BEV,Ambitious,756040
+South Asia,New Zealand,2035,BEV,Baseline,44639
+South Asia,New Zealand,2035,BEV,Momentum,178350
+South Asia,New Zealand,2035,BEV,Ambitious,202469
+South Asia,Pakistan,2035,BEV,Baseline,76865
+South Asia,Pakistan,2035,BEV,Momentum,716853
+South Asia,Pakistan,2035,BEV,Ambitious,753640
+South Asia,Philippines,2035,BEV,Baseline,21559
+South Asia,Philippines,2035,BEV,Momentum,21559
+South Asia,Philippines,2035,BEV,Ambitious,258704
+South Asia,Rest of South Asia/Oceania,2035,BEV,Baseline,136084
+South Asia,Rest of South Asia/Oceania,2035,BEV,Momentum,346121
+South Asia,Rest of South Asia/Oceania,2035,BEV,Ambitious,983765
+South Asia,Singapore,2035,BEV,Baseline,27652
+South Asia,Singapore,2035,BEV,Momentum,96119
+South Asia,Singapore,2035,BEV,Ambitious,122848
+South Asia,Thailand,2035,BEV,Baseline,79300
+South Asia,Thailand,2035,BEV,Momentum,1586008
+South Asia,Thailand,2035,BEV,Ambitious,1586008
+South Asia,Vietnam,2035,BEV,Baseline,16881
+South Asia,Vietnam,2035,BEV,Momentum,16881
+South Asia,Vietnam,2035,BEV,Ambitious,202567
+Europe,Eastern Europe/Central Asia,2035,BEV,Ambitious,0
+Greater China,Taiwan,2035,BEV,Ambitious,0
+Europe,Western Europe non EU,2035,BEV,Ambitious,0
+Europe,Eastern Europe/Central Asia,2035,BEV,Baseline,0
+Greater China,Taiwan,2035,BEV,Baseline,0
+Europe,Western Europe non EU,2035,BEV,Baseline,0
+Europe,Eastern Europe/Central Asia,2035,BEV,Momentum,0
+Greater China,Taiwan,2035,BEV,Momentum,0
+Europe,Western Europe non EU,2035,BEV,Momentum,0
