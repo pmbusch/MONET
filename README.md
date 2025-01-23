@@ -9,7 +9,8 @@ All the methods, rationale and justification for MONET can be found in the follo
 
 If you identify any error in the source code or have any further suggestions please contact Pablo Busch at pmbusch@ucdavis.edu or Francisco Pares at fapares@ucdavis.edu.
 
-Suggested citation for this repository: Busch, P., Pares F., Tal, G. (2023). MONET - Model for International Electric Vehicle Trade [GitHub repository]. Retrieved from https://github.com/pmbusch/MONET.
+Suggested **citation** for this repository: 
+Busch, P., Pares F., Tal, G. (2025). MONET - Model for International Electric Vehicle Trade [GitHub repository]. Retrieved from https://github.com/pmbusch/MONET.
 
 # Organization
 
