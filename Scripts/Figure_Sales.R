@@ -28,18 +28,29 @@ data_fig <- EV_sales %>%
   ungroup() %>% 
   mutate(region=paste0(region," ",format(round(s_total,1),big.mark=","),"M")) %>% 
   mutate(s_share=sales/sum(sales)) %>% 
-  mutate(s_label=if_else(s_share>0.017,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
-  mutate(s_label2=if_else(s_share>0.007 & s_share<0.017,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
-  mutate(s_label_white=if_else(iso %in% white_c & s_share>0.017,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
-  mutate(s_label_white2=if_else(iso %in% white_c & s_share>0.007 & s_share<0.017,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),""))
+  mutate(bool_rest=str_detect(c,"Rest of")) %>% 
+  mutate(s_label=if_else(s_share>0.017&!bool_rest,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
+  mutate(s_label2=if_else(s_share>0.007 & s_share<0.017&!bool_rest,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
+  mutate(s_label_white=if_else(iso %in% white_c & s_share>0.017&!bool_rest,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),"")) %>% 
+  mutate(s_label_white2=if_else(iso %in% white_c & s_share>0.007 & s_share<0.017&!bool_rest,paste0(iso,":",format(round(sales/1e6,1),big.mark=","),"M"),""))
 
 
+# aggregate rest of regions for countries with no label
+data_fig <- data_fig %>% 
+  mutate(lab_cat=if_else(s_label=="",s_label2,s_label)) %>% # to group by
+  mutate(lab_cat=if_else(lab_cat=="","RoR",lab_cat)) %>% 
+  mutate(c=if_else(lab_cat=="RoR","RoR",c)) %>% 
+  group_by(region,c,lab_cat,s_label,s_label2,s_label_white,s_label_white2,s_total) %>% 
+  reframe(s_prop=sum(s_prop),sales=sum(sales)/1e6) %>% ungroup() %>% 
+  mutate(s_label=if_else(lab_cat=="RoR",paste0("RoR:",format(round(sales,1)),"M"),s_label)) %>% 
+  filter(s_label!="RoR: 0.0M")
 
 reg_order <- data_fig %>% group_by(region) %>% summarise(sales=sum(sales)) %>% 
   arrange(desc(sales)) %>% pull(region)
 data_fig <- data_fig %>% mutate(region=factor(region,levels=reg_order))
 c_order <- data_fig %>% group_by(region,c) %>% summarise(sales=sum(sales)) %>% 
   arrange((sales)) %>% pull(c)
+c_order <- c("RoR",c_order[c_order != "RoR"]) # put Rest f Region at end
 data_fig <- data_fig %>% mutate(c=factor(c,levels=c_order))
 
 
@@ -63,7 +74,7 @@ ggplot(data_fig,
                                "Australia" = "#002868","Rest of Middle East/Africa" = "#F4A300", 
                                "Rest of South America" = "#8E44AD", "Rest of South Asia/Oceania" = "#F39C12",
                                "Malaysia" = "#FFCC00",
-                               "Other" = "#808080"))+
+                               "RoR" = "#80808080"))+
   theme_void(8)+
   theme(legend.position="none",
         strip.placement = "outside",
